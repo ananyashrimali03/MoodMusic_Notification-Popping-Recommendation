@@ -45,7 +45,7 @@ export type SignalsPacket = {
   limitations: string[];
 };
 
-/** Claude output — includes explicit “why” fields for judging integration depth */
+/** Structured vibe card — populated by scripted demo scenes or future inference */
 export type InferenceResult = {
   mood_label: string;
   confidence: number;
@@ -53,7 +53,7 @@ export type InferenceResult = {
   notification_line: string;
   /** Which passive signals mattered most and how they combined (non-clinical). */
   signals_used_for_read: string;
-  /** Why these keywords for Deezer (adjacent to listening history when present). */
+  /** Why these keywords fit the playlist (demo copy). */
   deezer_query_why: string;
   /** How hero line + metaphor + nudge form one coherent moment. */
   moment_arc: string;

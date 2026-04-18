@@ -44,7 +44,7 @@ function topGenres(rows: ListeningPlayRow[], max = 5): string[] {
     .map(([g]) => g);
 }
 
-/** Call when user meaningfully listened to a Deezer preview (deduped). */
+/** Call when user meaningfully listened to a preview clip (deduped). */
 export function recordPreviewListen(input: {
   deezer_track_id: number;
   title: string;

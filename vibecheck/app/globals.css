@@ -17,3 +17,20 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
 }
+
+@keyframes vc-wave {
+  0%,
+  100% {
+    transform: scaleY(0.35);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .vc-wave-active {
+    animation: vc-wave 0.9s ease-in-out infinite;
+    transform-origin: bottom;
+  }
+}

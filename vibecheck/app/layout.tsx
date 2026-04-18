@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "VibeCheck — demo",
   description:
-    "Passive signals → Claude → Deezer previews. CMU hackathon demo — not clinical advice.",
+    "Browser demo: scripted vibe cards + SoundHelix sample audio. CMU hackathon — not clinical advice.",
 };
 
 export default function RootLayout({
