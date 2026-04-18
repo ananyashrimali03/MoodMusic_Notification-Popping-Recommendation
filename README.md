@@ -1,5 +1,7 @@
 # CMU AI Hack — VibeCheck
 
+<img width="396" height="796" alt="image" src="https://github.com/user-attachments/assets/451a2ecb-61c1-4f99-bc78-f283e9dfd6f8" />
+
 **VibeCheck** is a mobile-first Next.js demo: passive browser signals → **Claude** (Anthropic Messages API) → structured vibe + **Deezer** 30s previews. Product and API contracts live in [`plan.md`](./plan.md) and [`spec.md`](./spec.md).
 
 ## Repository layout
