@@ -60,7 +60,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Demo limitations (intentional)
 
-- One-hour scope: **no** Spotify OAuth, **no** listening-history FIFO yet (stub empty).
+- One-hour scope: **no** Spotify OAuth; **on-device listening history** is FIFO-capped in `localStorage` (Clear in footer).
 - Requires **Allow location** for weather (Open-Meteo); otherwise inference still runs with noted limitations.
 - Deezer previews depend on Deezer catalog + CORS from your browser (usually OK).
 - **Not** a clinical or mental-health tool.
