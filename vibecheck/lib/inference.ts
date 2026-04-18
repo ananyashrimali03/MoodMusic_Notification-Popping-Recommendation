@@ -9,6 +9,14 @@ export function validateInferenceResult(v: unknown): InferenceResult | null {
     return null;
   if (typeof o.weather_metaphor !== "string") return null;
   if (typeof o.notification_line !== "string") return null;
+  if (
+    typeof o.signals_used_for_read !== "string" ||
+    !o.signals_used_for_read.trim()
+  )
+    return null;
+  if (typeof o.deezer_query_why !== "string" || !o.deezer_query_why.trim())
+    return null;
+  if (typeof o.moment_arc !== "string" || !o.moment_arc.trim()) return null;
   if (typeof o.deezer_search_query !== "string" || !o.deezer_search_query.trim())
     return null;
   if (typeof o.playlist_title !== "string") return null;
@@ -32,6 +40,9 @@ export function validateInferenceResult(v: unknown): InferenceResult | null {
     confidence: o.confidence,
     weather_metaphor: o.weather_metaphor,
     notification_line: o.notification_line,
+    signals_used_for_read: o.signals_used_for_read.trim(),
+    deezer_query_why: o.deezer_query_why.trim(),
+    moment_arc: o.moment_arc.trim(),
     deezer_search_query: o.deezer_search_query.trim(),
     playlist_title: o.playlist_title,
     playlist_vibe: o.playlist_vibe,
