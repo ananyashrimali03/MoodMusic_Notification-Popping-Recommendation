@@ -13,7 +13,7 @@
 | `plan.md` | Agent scope, theme, checklist |
 | `spec.md` | Full technical specification |
 
-<img width="1173" height="1291" alt="image" src="https://github.com/user-attachments/assets/372d48f1-d068-4835-b84a-489cca5ed4e2" /><img width="2539" height="1399" alt="image" src="https://github.com/user-attachments/assets/1d38c895-e015-42bf-9377-fd793d465c80" />
+<img width="2539" height="1399" alt="image" src="https://github.com/user-attachments/assets/1d38c895-e015-42bf-9377-fd793d465c80" />
 
 
 ## Quick start
